@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#030063</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorText">#030063</color>
+    <color name="colorButton">#FF0D41</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colordrawble">#00A6B1</color>
+    <color name="colorInactive">#B7BCC2</color>
+    <color name="colorBackground"> #F3F3F3</color>
+    <color name="colorTextlight">#13015E</color>
+    <color name="tabbackground"> #4D4D4D</color>
+
+
+
+
+</resources>

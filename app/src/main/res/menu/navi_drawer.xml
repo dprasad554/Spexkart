@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/profile"
+            android:title="Home"
+            android:icon="@drawable/ic_menu_one"/>
+        <item
+            android:icon="@drawable/ic_menu_two"
+            android:title="Computer glasses"/>
+        <item
+            android:icon="@drawable/ic_menu_three"
+            android:title="Color Blink Glasses"/>
+        <item android:id="@+id/nav_lang"
+            android:title="Eyeglasses"
+            app:actionLayout="@layout/spinner_menu"
+            android:icon="@drawable/ic_menu_four"/>
+        <item
+            android:icon="@drawable/ic_menu_five"
+            android:title="Sunglasses"/>
+        <item
+            android:icon="@drawable/ic_menu_six"
+            android:title="Power Glasses"/>
+
+    </group>
+
+</menu>

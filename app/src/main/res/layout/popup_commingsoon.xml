@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/VL_psd_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="30dp">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_logout_undraw"
+        android:visibility="visible"/>
+    <TextView
+        android:id="@+id/vT_sucess"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorText"
+        android:textAllCaps="true"
+        android:text="Are You Sure You Want to logOut ?"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:layout_margin="30dp"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/button_background"
+            android:text="Logout"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+
+    </LinearLayout>>
+
+
+</LinearLayout>
